@@ -20,7 +20,7 @@ function App() {
       <br/>
       <div className='serch'>
       <AddMovie  movies={movies} setMovies={setMovies}/>
-      <Filter setSearchM={setSearchM} setRateM={setRateM} searchM={searchM} rateM={rateM}/>
+      <Filter setSearchM={setSearchM} setRateM={setRateM}/>
       </div>
       <br/>
       <MovieList movies={movies} setMovies={setMovies} searchM={searchM} rateM={rateM}/>
